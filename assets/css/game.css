@@ -1,0 +1,41 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 0.3rem;
+    width: 100%;
+    font-size: 4rem;
+    border: 0.5rem solid rgb(255, 255, 255);
+    background-color: rgb(155, 227, 243);
+}
+
+
+.choice-prefix {
+    padding: 1rem 2rem;
+    background-color: pink;
+    color: blueviolet;
+}
+
+.choice-text {
+    padding: 1rem;
+    width: 100%;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    
+}
+
+.correct {
+    background-color: rgb(55, 182, 53);
+
+}
+
+.incorrect {
+    background-color: red;
+}
+
+.hud-prefix {
+   
+    font-size: 4rem;
+    display:flex;
+   
+}
